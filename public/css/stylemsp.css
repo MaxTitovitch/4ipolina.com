@@ -1,0 +1,286 @@
+body {
+	background: url(../fon.jpg);
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%;
+	font-family: Arial;
+	background-attachment: fixed;
+
+}
+
+.bchose{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.miMesNumb{
+      font-size: 10px;
+}
+
+.miList {
+     text-align: left;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.autor{
+	width: 70%;
+}
+
+@media only screen and (max-device-width: 480px) {
+   body {
+	background: url(../fonMB.jpg) ;
+    background-size: 100%;
+    }
+      .autor{
+	width: 85%;
+}
+}
+header{		
+			
+	text-align: center;
+	color: blue;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+	background-color: rgba(255, 255, 255, 0.7);
+       	border-radius: 6px;
+}
+.grand {
+    margin-left: 30px;
+    margin-left: 30px;
+    text-align: left;
+  	font-size: 20px;
+}
+
+main{		
+			
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.7);
+     	border-radius: 6px;
+}
+
+.red {
+  	background-color: rgba(255, 0, 0, 0.7);
+}
+
+.cr{
+
+	display: inline-block;
+	color: white;
+	font-weight: 800;
+}
+
+cri{
+  	display: inline-block;
+	color: white;
+  	font-weight: 400;
+}
+
+.maincol{		
+			
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+     	border-radius: 6px;
+}
+
+.acol{				
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+	background-color: #fff;
+}
+
+
+
+.pay {
+	text-align: center;
+	color: #7a0008;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px auto;
+}
+
+
+#SD {
+	width:50%;
+}
+
+.none {
+	text-decoration: none;
+	color: #7a0008;
+}
+
+.none:hover {
+	text-decoration: underline;
+	color: #003300;
+}
+
+
+
+.col{		
+			
+	text-align: center;
+	width: 80%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+	background-color: #fff;
+}
+
+.romb{
+	width: 22px;
+	border-width: 0pt;
+}
+
+
+.name {
+	color: #7a0008;
+	font-weight: 600;
+}
+
+.shortname {
+	text-align: left;
+	margin: 0 10px;
+}
+
+.text {
+	text-align: left;
+	margin: 10px 20px;
+}
+
+.pr{
+	display: inline-block;
+	color: #7a0008;
+	font-weight: 800;
+}
+
+img{
+	width: 60%;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+}
+
+.img{
+	width: 40%;
+	border-width: 0pt;
+}
+
+.price {
+	text-align: center;
+	color: #003300;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px auto;
+}
+
+.price1 {
+	text-align: center;
+	color: #003300;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 1px auto 10px;
+}
+
+.button {
+	display: inline-block;
+	margin: 2% auto;
+	padding: 10px 50px;
+	font-size: 20px;
+	border-radius: 2px;
+	background: #5dae2e;
+	color: white;
+	text-decoration: none;
+    border-right: 2px solid #a8a8a8;
+    border-bottom: 2px solid #a8a8a8;
+    border-left: 2px solid #ededed;
+    border-top: 2px solid #ededed;
+}
+
+.button:hover { 
+	background-color: white;
+	color: #5dae2e;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+a { 
+	font-weight: 600;
+	color: white;
+}
+
+h1 {
+	color: #003300;
+}
+
+
+.myForm{
+	text-align: left;
+	margin-left:auto;
+	margin-right:auto;
+	width: 190px;
+    padding: 20px;
+  	border-width: 2pt;
+	border-style: solid;
+	border-color: black;
+	border-radius: 5px;
+	
+}
+
+.form{
+	//width: 20%;
+	margin: 0 auto;
+}
+
+.email{
+    font-weight: 600;
+	color: #003300;
+}
+
+.buttonEmail {
+  	font-size: 12px;
+    padding: 5px 25px;
+    margin: 10px 0px;
+  	background: #000;
+}
+
+.buttonEmail:hover {
+  	color: #000;
+}
+
+.formEmail {
+      margin: 10px 0px;
+	text-align: center;
+}
+
+textarea {
+    width: 90%;
+  height: 200px;
+    resize: none;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+
+.form {
+	text-align: left;
+	margin:  20px 5%;
+}

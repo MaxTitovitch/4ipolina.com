@@ -1,0 +1,33 @@
+doby {
+	background-color: url(https://mysiteproj.loc/1.jpg);
+}
+header{		
+			
+	text-align: center;
+	color: blue;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+}
+
+main{		
+			
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+}
+
+.maincol{		
+			
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	border-width: 2pt;
+	border-style: solid;
+	border-color: #000;
+}
